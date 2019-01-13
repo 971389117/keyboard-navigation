@@ -1,0 +1,56 @@
+body {
+  background: grey url(../images/wall.jpg) no-repeat center center;
+}
+.row {
+  margin: 20px;
+}
+#main > div:nth-child(2) {
+  margin-left: 40px;
+}
+#main > div:nth-child(3) {
+  margin-left: 88px;
+}
+.wrapper {
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.2);
+}
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+span{
+    height: 30px;
+}
+button {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  display: none;
+}
+kbd:hover > button {
+  display: inline-block;
+}
+.key img {
+  position: absolute;
+  right: 0px;
+  bottom: 2px;
+  width: 16px;
+  height: 16px;
+}
+kbd {
+  position: relative;
+  display: inline-block;
+  margin: 0 10px;
+  width: 50px;
+  height: 40px;
+  border: 1px solid #373737;
+  border-radius: 6px;
+  background: linear-gradient(to bottom, #292929 0%, #111111 100%);
+  box-shadow: 0 0 0 1px #1a1b1c, 0 0 0 2px #1f2020, 0 3px 0 2px #080808;
+  color: #c5c5c5;
+  text-transform: uppercase;
+  font: bolder 16px/1.5 SimSun, STKaiti, "Microsoft YaHei", SimHei, Helvetica,
+    Arial;
+}

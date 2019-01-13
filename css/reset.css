@@ -1,0 +1,24 @@
+* {
+  display: block;
+  margin: 0;
+  padding: 0;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+body {
+  background-color: #efefef;
+  font: 16px/1.5 SimSun, STKaiti, "Microsoft YaHei", SimHei, Helvetica, Arial;
+}
+nav,
+ul {
+  display: flex;
+  list-style: none;
+}
+a {
+  color: #333;
+  text-decoration: none;
+}
+.clearfix::after {
+  display: block;
+  clear: both;
+  content: "";
+}
